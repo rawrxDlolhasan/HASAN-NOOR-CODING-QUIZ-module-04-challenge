@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>module-04-challenge</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <script src="script.js"></script>
@@ -13,7 +16,7 @@
     <!-- HEADER -->
     <header class="header">
         <h1>JavaScript Fundamentals Quiz</h1>
-        <button id="start-button" type="button" onclick="alert('Your task is to answer the following-questions within the time-limit! Incorrect answers will reduce your time AND score by 10 seconds. Good luck :D')">BEGIN</button>
+        <button id="start-button" type="button" onclick="alert('Your task is to answer the following-questions within the time-limit! Incorrect answers will reduce your time AND score by 10 seconds. Good luck :D')">START</button>
     </header>
 
     <!-- QUESTIONS -->
@@ -50,7 +53,7 @@
             <li class="choice-01" class="incorrect-answer">commas</li>
             <li class="choice-02" class="correct-answer">curly brackets</li>
             <li class="choice-03" class="incorrect-answer">quotation marks</li>
-            <li class="choice=04" class="incorrect-answer">parenthesis</li>
+            <li class="choice-    04" class="incorrect-answer">parenthesis</li>
         </ul>
     </main>
     <main class="questions">
@@ -83,7 +86,7 @@
             <li><span id="leaderboard-item"> </span></li>
         </ol>
         <button id="return-button">RETURN</button>
-        <button id="reset-high-scores-button" onclick="alert('Are you sure you want to reset your high scores?')">RESET</button>
+        <button id="reset-button" onclick="alert('Are you sure you want to reset your high scores?')">RESET</button>
     </section>
 
     <!-- FOOTER -->

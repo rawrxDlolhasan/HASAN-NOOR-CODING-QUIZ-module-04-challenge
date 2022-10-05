@@ -1,1 +1,96 @@
-*
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+/* HEADER */
+.header {
+    padding: 33px;
+    margin: 21px auto;
+    width: 700px; height: 350px;
+    border-radius: 25px;
+    background-color: rgb(164, 235, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button {
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    color: rgb(164, 235, 255);
+}
+
+#start-button:hover {
+    background-color: rgb(255, 248, 171);
+}
+
+/* QUESTIONS */
+.questions {
+    padding: 33px;
+    margin: 21px auto;
+    width: 700px; height: 350px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 13px;
+    border-color: rgb(164, 235, 255);
+    background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    width: 500px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(164, 235, 255);
+}
+
+.choices li {
+    list-style: none;
+    width: 500px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.choices li:hover {
+    background-color: rgb(255, 248, 171);
+}
+
+.choice-01 {
+    background-color: rgb(255, 192, 247);
+}
+
+.choice-02 {
+    background-color: rgb(255, 217, 146);
+}
+
+.choice-03 {
+    background-color: rgb(232, 175, 232);
+}
+
+.choice-04 {
+    background-color: rgb(174, 255, 174);
+}
+
+/* RESULTS */
+.results-input {
+    
+}
