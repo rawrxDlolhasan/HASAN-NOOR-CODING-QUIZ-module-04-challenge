@@ -5,9 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>module-04-challenge</title>
-    <styl
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <script src="script.js"></script>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>JavaScript Fundamentals Quiz</h1>
+        <button id="start-button" type="button" onclick="alert('Your task is to answer the following-questions within the time-limit! Incorrect answers will reduce your time AND score by 10 seconds. Good luck :D')">BEGIN</button>
+    </header>
+
+    <!-- QUESTIONS -->
+    <main class="questions">
+        <h2 class="question">01: Which is NOT a frequently used data-type? </h2>
+        <ul class="choices">
+            <li class="choice-01" class="incorrect-answer">strings</li>
+            <li class="choice-02" class="correct-answer">booleans</li>
+            <li class="choice-03" class="incorrect-answer">alerts</li>
+            <li class="choice-04" class="incorrect-answer">numbers</li>
+        </ul>
+    </main>
+    <main class="questions">
+        <h2 class="question">02: What are the conditions of if-else statements enclosed in?</h2>
+        <ul class="choices">
+            <li class="choice-01" class="incorrect-answer">quotation marks</li>
+            <li class="choice-02" class="incorrect-answer">curly brackets</li>
+            <li class="choice-03" class="correct-answer">parenthesis</li>
+            <li class="choice-04" class="incorrect-answer">square brackets</li>
+        </ul>
+    </main>
+    <main class="questions">
+        <h2 class="question">03: What can arrays store in JavaScript?</h2>
+        <ul class="choices">
+            <li class="choice-01" class="incorrect-answer">numbers and strings</li>
+            <li class="choice-02" class="incorrect-answer">other arrays</li>
+            <li class="choice-03" class="incorrect-answer">booleans</li>
+            <li class="choice-04" class="correct-answer">all of the above</li>
+        </ul>
+    </main>
+    <main class="questions">
+        <h2 class="question">O4: When being assigned to variables, what MUST string values be enclosed in?</h2>
+        <ul class="choices">
+            <li class="choice-01" class="incorrect-answer">commas</li>
+            <li class="choice-02" class="correct-answer">curly brackets</li>
+            <li class="choice-03" class="incorrect-answer">quotation marks</li>
+            <li class="choice=04" class="incorrect-answer">parenthesis</li>
+        </ul>
+    </main>
+    <main class="questions">
+        <h2 class="question">05: Which is an useful tool used during development and debugging for printing content to the debugger?</h2>
+        <ul class="choices">
+            <li class="choice-01" class="incorrect-answer">JavaScript</li>
+            <li class="choice-02" class="incorrect-answer">terminal/bash</li>
+            <li class="choice-03" class="correct-answer">for loops</li>
+            <li class="choice-04" class="incorrect-answer">console.log</li>
+        </ul>
+    </main>
+
+    <!-- VIEW-HIGH-SCORES -->
+    <a href="#view-high-scores">View High Scores</a>
+
+    <!-- TIME-AND-SCORE-TRACKER -->
+    <p class="time-and-score-tracker">Time: <span class="time-and-score"> </span></p>
+
+    <!-- RESULTS -->
+    <section class="results-input">
+        <h2>You did it!</h2>
+        <ul>
+            <li id="final-score-statement">Your final score is <span class="time-and-score"> </span></li>
+            <li id="initials-input">My initials are <input type="text"> <button id="submit-button" onclick="alert('Double-check to make sure you typed the right initials ^-^ After doing so, click OK.')">SUBMIT</button></li>
+        </ul>
+    </section>
+    <section class="results-leaderboard">
+        <h2>High Scores</h2>
+        <ol class="leaderboard">
+            <li><span id="leaderboard-item"> </span></li>
+        </ol>
+        <button id="return-button">RETURN</button>
+        <button id="reset-high-scores-button" onclick="alert('Are you sure you want to reset your high scores?')">RESET</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h4>module-04-challenge</h4>
+    </footer>
 </body>
 </html>
